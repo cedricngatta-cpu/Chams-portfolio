@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "project-1",
+      "description": "AI Customer Support Bot",
+      "imageUrl": "https://images.unsplash.com/photo-1684369175833-4b445ad6bfb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhaSUyMHJvYm90fGVufDB8fHx8MTc3MTQ4MDc3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ai robot"
+    },
+    {
+      "id": "project-2",
+      "description": "Smart Analytics Dashboard",
+      "imageUrl": "https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkYXRhJTIwZGFzaGJvYXJkfGVufDB8fHx8MTc3MTUxMzc5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data dashboard"
+    },
+    {
+      "id": "project-3",
+      "description": "Automated Content Generator",
+      "imageUrl": "https://images.unsplash.com/photo-1587215231250-c0c8e03eb455?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3cml0aW5nJTIwYXV0b21hdGlvbnxlbnwwfHx8fDE3NzE1MTM3OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "writing automation"
+    }
+  ]
+}
