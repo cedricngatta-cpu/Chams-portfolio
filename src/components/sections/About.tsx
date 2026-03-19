@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { User, Cpu, Rocket, Award, GraduationCap } from 'lucide-react';
 
 export const About = () => {
@@ -9,8 +10,13 @@ export const About = () => {
           <div className="w-full md:w-1/2 relative group">
             <div className="absolute -inset-1 bg-gradient-to-r from-primary via-secondary to-accent rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
             <div className="relative aspect-square rounded-2xl overflow-hidden glass border border-border/50 flex items-center justify-center bg-muted/20">
-              <User className="w-48 h-48 text-primary/20" />
-              <div className="absolute bottom-6 left-6 right-6 p-4 glass rounded-xl border border-border/50">
+              <Image 
+                src="/photo.png" 
+                alt="N'GATTA Cédric"
+                fill
+                className="object-cover opacity-80 group-hover:opacity-100 transition duration-500"
+              />
+              <div className="absolute bottom-6 left-6 right-6 p-4 glass rounded-xl border border-border/50 z-10">
                 <p className="text-xs font-code text-primary mb-1 tracking-widest uppercase">Status</p>
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 rounded-full bg-accent animate-pulse" />

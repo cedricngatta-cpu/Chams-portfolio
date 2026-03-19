@@ -18,7 +18,7 @@ export const Hero = () => {
           <div className="absolute -inset-1 bg-gradient-to-r from-accent via-orange-500 to-accent rounded-full blur-sm opacity-60" />
           <div className="relative w-full h-full rounded-full overflow-hidden border-2 border-border/50">
             <Image
-              src="/avatar.png"
+              src="/photo.png"
               alt="N'GATTA Cédric"
               fill
               className="object-cover"
@@ -74,7 +74,7 @@ export const Hero = () => {
           </Magnetic>
           <Magnetic>
             <a
-              href="/cv.pdf"
+              href="/Cv de N'GATTA ANOH MARC-ANTOINE CEDRIC.pdf (2).pdf"
               target="_blank"
               className="px-8 py-3 rounded-full bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-all duration-300 block"
             >
